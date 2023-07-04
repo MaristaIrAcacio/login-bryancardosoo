@@ -6,6 +6,5 @@ function acessar() {
         alert("favor preencha os campos para acessar o site");
     } else {
         window.location.href = "aula2.html";
-		console.log(window.location.href);
     }
 }
