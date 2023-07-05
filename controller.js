@@ -25,4 +25,7 @@ function salvarUser(){
 function criaLista(){
     let tabela = document.getElementById("tabela").innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th></tr>";
     
+    for(let i=0; i <= (dadosLista.length-1); i++){
+        tabela += "<tr><td>" + dadosLista[i] + "<td><td><button class='btn btn-success' onclick=''>Editar</button><button class='btn btn-danger' onclick=''>Excluir</button>"
+    }
 }
